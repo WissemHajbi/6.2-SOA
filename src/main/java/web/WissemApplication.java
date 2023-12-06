@@ -8,7 +8,6 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.domain.EntityScan;
 import org.springframework.context.annotation.Bean;
-import org.springframework.context.annotation.ComponentScan;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 import repositories.CompteRepository;
 import entities.Compte;
@@ -19,10 +18,10 @@ import java.util.Date;
 @EnableJpaRepositories(basePackages = "repositories")
 // Active la configuration des dépôts JPA
 @EntityScan(basePackages = "entities")
-public class SalimChahedLsi3SoaTp6Application {
+public class WissemApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SalimChahedLsi3SoaTp6Application.class, args);
+		SpringApplication.run(WissemApplication.class, args);
 	}
 
 	@Bean

@@ -12,7 +12,7 @@ import repositories.CompteRepository;
 
 import java.util.List;
 @Component
-@Path("/salim")
+@Path("/Wissem")
 public class CompteRestJaxRESAPI1 {
     @Autowired
     private CompteRepository compteRepository;
